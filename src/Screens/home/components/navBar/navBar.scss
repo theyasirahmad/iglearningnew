@@ -1,0 +1,76 @@
+@import "~foundation-sites/scss/foundation";
+// @include foundation-everything;
+@include foundation-title-bar;
+@include foundation-top-bar;
+
+.title-bar{
+    background-color: #B5581F;
+    height: 37px;
+    justify-content: flex-end;
+}
+
+.title-bar-title {
+    padding-right: 70px
+    
+}
+
+.top-bar{
+    background-color: #D76E2D;
+    color: white;
+    letter-spacing: 0px;
+    font-family: 'Popins Regular';
+    font-size: 14px;
+}
+.top-bar-left{
+    height: 55px;
+    padding-left: 60px;
+}
+.top-bar-right{
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.link-spacing{
+    padding: 0px 20px
+}
+
+.button-nav{
+    border: 1px solid white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.button-nav:hover{
+    background-color: white;
+    color: #D76E2D;
+}
+.para{
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+
+}
+.para2{
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.para2:hover{
+    background-color: white;
+    color: #D76E2D;
+}
+.categoryBtns{
+    text-align: center;
+    display: inline-block;
+    height: 55px;
+    padding: 0px !important;
+}
+@media screen and (max-width: 600px) {
+    .para{
+        font-size: 7px;
+        padding: 5px;
+    }
+  }

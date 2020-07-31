@@ -1,0 +1,80 @@
+@import "~foundation-sites/scss/foundation";
+// @include foundation
+// @include foundation-global-styles;
+// @include foundation-forms;
+// @include foundation-typography;
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+
+
+.cell-courses{
+    margin-top: 20;
+    // padding: 20px 82px;
+    // text-align: center;
+    // font-family: Poppins;
+    // font-size: 24px;
+    // font-weight: 35;
+}
+.grid-x{
+    width: 100%;
+}
+.large-2{
+    padding: 15px;
+} 
+.footer-container{
+    position: relative;
+    // padding: 0px 70px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    z-index: 9999;
+    width: 100%;
+}
+.footer-container-button{
+    position: relative;
+    z-index: 9999;
+    top:50px;
+    background-color: #39741F;
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 23px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border: 12px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer-container-bottom{
+    position: relative;
+    // top: calc(94vw);
+    background-color: #D76E2D;
+    color: white;
+    padding-top:calc(20vw)
+}
+
+.head-footer{
+    margin: 40px 10px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.head-light-text-cat{
+    font-weight: normal; 
+    font-size: 14px; 
+    margin-top: 10px; 
+    margin-left: 10px; 
+    color: #999B9F;
+}
+
+.footer-container-bottom-2{
+    // height: 60px;
+    background-color: #B5581F;
+    color: white;
+}

@@ -1,0 +1,19 @@
+@import "~foundation-sites/scss/foundation";
+@include foundation-xy-grid-classes;
+
+.cell-most-mostAndCategories{
+    margin-top: 20px;
+}
+
+.container-most-mostAndCategories{
+    position: relative;
+    width: 99%;
+    // top: calc(70vw);
+    // margin: 70px 70px
+}
+.grid-x{
+    width: 100%;
+}
+.large-4{
+    padding: 15px;
+}

@@ -1,0 +1,82 @@
+// @import "~foundation-sites/scss/foundation";
+// @include foundation-xy-grid-classes;
+
+// .cell-courses{
+//     margin-top: 20px;
+// }
+
+// .container-courses-recent{
+//     position: relative;
+//     top: calc(60vw);
+//     margin: 70px 70px
+// }
+
+// .head-courses{
+//     margin: 40px 10px;
+//     font-family: Poppins;
+// }
+
+// .is-active-courses-head{
+//     padding: 15px 40px;
+//     border-radius: 30px;
+//     margin-left: 10px;
+//     color: black;
+//     background-color: white;
+// }
+
+@import "~foundation-sites/scss/foundation";
+// @include foundation
+// @include foundation-global-styles;
+// @include foundation-forms;
+// @include foundation-typography;
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+
+
+.cell-courses{
+    margin-top: 20;
+    // padding: 20px 82px;
+    // text-align: center;
+    // font-family: Poppins;
+    // font-size: 24px;
+    // font-weight: 35;
+}
+.grid-x{
+    width: 100%;
+    // margin: 70px 70px
+}
+.large-3{
+    padding: 15px;
+} 
+.large-1{
+    padding: 15px;
+} 
+.container-courses-recent{
+    position: relative;
+    // top: calc(60vw);
+    // margin: 70px 70px
+}
+
+.head-courses{
+    margin: 40px 10px;
+    font-family: Poppins;
+    margin: 70px 70px
+}
+
+.is-active-courses-head-d{
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    color: black;
+    background-color: white;
+    // box-shadow: 0px 8px 40px #0000001A;
+}
+.is-active-courses-head{
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-left: 0px;
+    color: black;
+    background-color: white;
+    // box-shadow: 0px 8px 40px #0000001A;
+    font-size: 9px;
+}

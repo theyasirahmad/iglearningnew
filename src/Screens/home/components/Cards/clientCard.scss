@@ -1,0 +1,31 @@
+@import "~foundation-sites/scss/foundation";
+
+@include foundation-card;
+
+.client-card{
+    margin: 10px;
+    padding: 30px;
+    font-family: Poppins;
+    letter-spacing: 0;
+    box-shadow: 10px 30px 60px #0000000D;
+    
+    
+}
+
+.client-content{
+    font-size: 17px;
+    color: #999B9F;
+    margin: 10px 0px;
+}
+
+.client-type{
+    font-size: 15px;
+    color: #999B9F;
+    margin: 10px 0px;
+}
+
+.client-name{
+    margin: 10px 0px;
+    font-size: 22px;
+    font-weight: 600;
+}

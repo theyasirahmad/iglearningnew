@@ -1,0 +1,63 @@
+// @import "~foundation-sites/scss/foundation";
+// @include foundation-xy-grid-classes;
+
+// .cell-courses-most{
+//     margin-top: 20px;
+// }
+
+// .container-courses-most{
+//     position: relative;
+// }
+
+// .head-most-courses{
+//     margin: 0px 10px 20px 10px;
+//     font-family: Poppins;
+// }
+
+
+
+@import "~foundation-sites/scss/foundation";
+// @include foundation
+// @include foundation-global-styles;
+// @include foundation-forms;
+// @include foundation-typography;
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+
+
+.cell-courses{
+    margin-top: 20;
+    // padding: 20px 82px;
+    // text-align: center;
+    // font-family: Poppins;
+    // font-size: 24px;
+    // font-weight: 35;
+}
+.grid-x{
+    width: 100%;
+}
+.large-4{
+    padding: 15px;
+} 
+
+.large-1{
+    padding: 15px;
+} 
+.container-courses-most{
+    position: relative;
+    // top: calc(60vw);
+    // margin: 70px 70px
+}
+
+.head-most-courses{
+    margin: 40px 10px;
+    font-family: Poppins;
+}
+
+.head-light-text{
+    font-weight: normal; 
+    font-size: 14px; 
+    margin-top: 10px; 
+    margin-left: 10px; 
+    color: #999B9F
+}
